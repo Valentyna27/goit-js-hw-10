@@ -30,3 +30,22 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+
+a {
+  color: orange;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+ul {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
